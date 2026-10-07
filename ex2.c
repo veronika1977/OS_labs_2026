@@ -11,7 +11,6 @@ int main(int argc, char *argv[]) {
         fork();
         sleep(5);
     }
-    
     while (wait(NULL) > 0);
     return 0;
 }
